@@ -6,9 +6,9 @@ import {
 } from 'react-router-dom';
 import { SnackbarProvider } from 'notistack';
 
-import Home from './Components/Home/Home';
+import Home from './Components/Home';
 import Error404 from './Components/Error404';
-import Dashboard from './Components/Dashboard/Dashboard';
+import Dashboard from './Components/Dashboard';
 
 export default class App extends React.Component {
   render() {

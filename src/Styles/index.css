@@ -13,15 +13,15 @@ body {
   }
   @font-face {
     font-family: OpenSans;
-    src: url(../asset/OpenSans-Regular.ttf);
+    src: url(../Assets/OpenSans-Regular.ttf);
   }
   @font-face {
     font-family: Poppins;
-    src: url(../asset//Poppins-Light.otf);
+    src: url(../Assets//Poppins-Light.otf);
   }
   @font-face {
     font-family: Roboto;
-    src: url(../asset/Roboto-Regular.ttf);
+    src: url(../Assets/Roboto-Regular.ttf);
   }
   html {
     box-sizing: border-box;
