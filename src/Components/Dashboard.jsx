@@ -98,7 +98,7 @@ class Dashboard extends React.Component {
                   <div className="each_log">
                     <p
                       className={`${
-                        log.status === "death" ? "red" : "green"
+                        log.status === "Death" ? "red" : "green"
                       } status`}
                     >
                       {log.status}
