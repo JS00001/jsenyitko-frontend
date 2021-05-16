@@ -1,3 +1,8 @@
+html {
+  background: #F9FAFB;
+}
+
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,15 +18,15 @@ body {
   }
   @font-face {
     font-family: OpenSans;
-    src: url(../Assets/OpenSans-Regular.ttf);
+    src: url(../../Assets/OpenSans-Regular.ttf);
   }
   @font-face {
     font-family: Poppins;
-    src: url(../Assets//Poppins-Light.otf);
+    src: url(../../Assets//Poppins-Light.otf);
   }
   @font-face {
     font-family: Roboto;
-    src: url(../Assets/Roboto-Regular.ttf);
+    src: url(../../Assets/Roboto-Regular.ttf);
   }
   html {
     box-sizing: border-box;
@@ -40,7 +45,7 @@ body {
     line-height: 2;
     outline: none;
     height: 100%;
-    background: #161520;
+    background: #F9FAFB;
   }
   
   div,

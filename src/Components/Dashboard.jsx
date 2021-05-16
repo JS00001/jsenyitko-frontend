@@ -3,7 +3,7 @@ import { getUser, whitelist } from "../Util/requests";
 import { CircularProgress } from "@material-ui/core";
 
 import React from "react";
-import "../Styles/Dashboard.css";
+import "../Styles/LightTheme/Dashboard.light.css";
 import config from "../Util/config";
 
 class Dashboard extends React.Component {
@@ -53,7 +53,7 @@ class Dashboard extends React.Component {
   }
 
   render() {
-    const { ign, events } = this.state;
+    const { ign, events, username } = this.state;
     if (!ign) return <CircularProgress className="spinner" />;
 
     return (
@@ -72,7 +72,7 @@ class Dashboard extends React.Component {
             </li>
             <li>
               <a className="big_ash_text" href={config.logoutRedirect}>
-                Logout
+                Logout ({username})
               </a>
             </li>
           </ul>

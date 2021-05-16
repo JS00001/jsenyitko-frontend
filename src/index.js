@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-import "./Styles/index.css";
+import "./Styles/LightTheme/index.light.css";
 
 ReactDOM.render(
   <BrowserRouter>

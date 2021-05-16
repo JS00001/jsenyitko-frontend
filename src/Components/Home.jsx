@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Styles/Home.css";
+import "../Styles/DarkTheme/Home.dark.css";
 import config from "../Util/config";
 
 export default class Home extends React.Component {
