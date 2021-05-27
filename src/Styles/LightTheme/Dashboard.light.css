@@ -69,7 +69,7 @@ nav {
   input {
     margin-bottom: 10px;
     background-color: #ffffff;
-    border: 1px solid #D9D9D9;
+    border: .5px solid #d9d9d9a4;
     border-radius: 5px;
     width: 100%;
     color: #9CA3AF;
@@ -83,7 +83,7 @@ nav {
   }
   .lhs button {
     background-color: #005FE6;
-    border: none;
+    border: 1px solid #005FE6;
     outline: none;
     border-radius: 8px;
     padding: 8px 37px;
@@ -101,9 +101,9 @@ nav {
   .each_log {
     margin-bottom: 10px;
     background-color: #ffffff;
-    border: 0.5px solid #D9D9D9;
+    border: 2px solid #D9D9D9;
     padding: 8px;
-    border-radius: 6px;
+    border-radius: 6px; 
   }
   .each_log .status {
     font-size: 11px;
@@ -127,8 +127,9 @@ nav {
   }
   .each_log .detail {
     margin-top: 5px;
-    color: #0f0f0f; 
+    color: #535353; 
     font-size: 14px;
+    font-weight: bold;
   }
   
   /* //mediaqueries */

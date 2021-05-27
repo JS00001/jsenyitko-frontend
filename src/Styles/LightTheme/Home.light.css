@@ -1,0 +1,24 @@
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+.button {
+    background-color: #3a2cff;
+    border: 0px;
+    padding: 10px 100px 10px 100px;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 1px solid #3a2cff;
+    color: #3a2cff;
+    cursor: pointer;
+}
